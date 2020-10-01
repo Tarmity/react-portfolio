@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #051622;
+   
+}
+
+.navText {
+    color: #1BA098;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navLink {
+    color: #1BA098;
+}
