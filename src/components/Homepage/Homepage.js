@@ -1,14 +1,12 @@
 import React from 'react';
-import { Jumbotron, Container, Button } from 'react-bootstrap/';
-import "./Jumbo.css";
-import "./img/stars.png";
-
+import { Jumbotron, Container, Button, Image} from 'react-bootstrap/';
+import "./Homepage.css";
 
 
 const Jumbo = () => {
     return (
 
-        <Jumbotron fluid className="jumbo">
+        <Jumbotron fluid className="jumbo" >
             <Container>
                 <div className="jumboText">
                     <p>_________________________________</p>
@@ -17,6 +15,7 @@ const Jumbo = () => {
                     <Button variant="outline-info">My Work</Button>{' '}
                 </div>
             </Container>
+            
         </Jumbotron>
     )
 }

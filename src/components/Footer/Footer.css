@@ -1,0 +1,16 @@
+.footerColor {
+    background-color: #051622;
+   
+   
+}
+
+.footerText {
+    color: #1BA098;
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* text-align: center; */
+}

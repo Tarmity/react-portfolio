@@ -1,12 +1,14 @@
 import React from 'react';
 import NavBarFull from"./components/NavbarFull/NavbarFull";
-import Jumbo from './components/Jumbo/Jumbo'
+import Homepage from './components/Homepage/Homepage'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div>
       <NavBarFull />
-      <Jumbo />
+      <Homepage />
+      <Footer />
     </div>
   );
 }
