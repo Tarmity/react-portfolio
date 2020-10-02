@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Container, Button, Image} from 'react-bootstrap/';
+import { Jumbotron, Container, Button } from 'react-bootstrap/';
 import "./Homepage.css";
 
 
