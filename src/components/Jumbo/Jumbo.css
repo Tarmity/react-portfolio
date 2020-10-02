@@ -1,0 +1,19 @@
+
+
+.jumbo {
+    background-image:url(./img/DarkBstars.jpg );
+    height: 100vh;
+   
+}
+
+.jumboText {
+    color: #DEB992;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.jumboTexth1 {
+    font-size: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
