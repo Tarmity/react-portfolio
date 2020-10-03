@@ -6,12 +6,13 @@ import "./Homepage.css";
 const Jumbo = () => {
     return (
 
-        <Jumbotron fluid className="jumbo" >
+        <Jumbotron fluid className="jumbo">
             <Container>
                 <div className="jumboText">
-                    <p>_________________________________</p>
-                    <h1 className="jumboTexth1">MEET TARMITY</h1>
-                    <p>A Full-Stack Developer.</p>
+                    <p>___________________________________</p>
+                    <h1 className="jumboTexth1">MEET </h1>
+                    <h1 className="jumboTexth1">TARMITY</h1>
+                    <p>Full-Stack Developer</p>
                     <Button variant="outline-info">My Work</Button>{' '}
                 </div>
             </Container>

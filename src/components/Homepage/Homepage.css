@@ -1,19 +1,30 @@
 
+body {
+    background-color: #051622 !important; 
+}
 
 .jumbo {
-    background-image:url(./img/DarkBstars.jpg );
-    height: 100vh;
-   
+  background-color: #051622 !important;
+  /* background-image:url(./img/DarkBstars.jpg ); */
+  
 }
+
+
 
 .jumboText {
-    color: #DEB992;
-    text-align: center;
-    font-size: 40px;
+  color: #deb992;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 .jumboTexth1 {
-    font-size: 150px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 150px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
 }
+
