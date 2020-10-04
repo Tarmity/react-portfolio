@@ -3,7 +3,11 @@ import { } from 'react-bootstrap';
 
 
 const Contact = () => {
-    return <h3>Contact</h3>
+    return (
+
+        <h4>hello</h4>
+
+    )
 };
 
 
