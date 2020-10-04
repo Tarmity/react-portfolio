@@ -1,4 +1,6 @@
 .cardBody {
     background-color: #DEB992 !important;
     color: #051622;
+    margin-right: auto;
+    margin-left: auto;
 }
