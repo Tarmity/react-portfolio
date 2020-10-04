@@ -18,6 +18,7 @@ render() {
                         <CardPort 
                         key={work.id}
                         image={work.image}
+                        title={work.title}
                         about={work.about}
                         languages={work.languages}
                         tech={work.tech}

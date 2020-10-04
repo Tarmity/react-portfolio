@@ -3,4 +3,9 @@
     color: #051622;
     margin-right: auto;
     margin-left: auto;
+    
+}
+
+.cardTitle {
+    text-align: center;
 }
