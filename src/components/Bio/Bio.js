@@ -11,7 +11,7 @@ const Bio = () => {
         <Container>
             <br />
             <br />
-            <Card>
+            <Card style={{ marginTop: '50px' }}>
                 <Card.Img variant="top"  src={require("./imgs/cartoonPic.png")}  />
                 <Card.Body className="cardBody">
                     <Card.Text >

@@ -6,19 +6,35 @@ import CardPort from '../CardPort/CardPort';
 const Portfolio = () => {
 
     return (
-        <Container>
-            <Row>
-                <Col>
-                    <CardPort />
-                </Col>
-                <Col>
-                    <CardPort />
-                </Col>
-                <Col>
-                    <CardPort />
-                </Col>
-            </Row>
-        </Container>
+        <>
+            <Container > 
+                <Row>
+                    <Col>
+                        <CardPort />
+                    </Col>
+                    <Col>
+                        <CardPort />
+                    </Col>
+                    <Col>
+                        <CardPort />
+                    </Col>
+                </Row>
+            </Container>
+
+            <Container >
+                <Row>
+                    <Col>
+                        <CardPort />
+                    </Col>
+                    <Col>
+                        <CardPort />
+                    </Col>
+                    <Col>
+                        <CardPort />
+                    </Col>
+                </Row>
+            </Container>
+        </>
     )
 };
 
