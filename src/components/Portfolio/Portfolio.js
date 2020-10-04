@@ -1,9 +1,25 @@
 import React from 'react';
-import { } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import CardPort from '../CardPort/CardPort';
 
 
 const Portfolio = () => {
-    return <h3>Portfolio</h3>
+
+    return (
+        <Container>
+            <Row>
+                <Col>
+                    <CardPort />
+                </Col>
+                <Col>
+                    <CardPort />
+                </Col>
+                <Col>
+                    <CardPort />
+                </Col>
+            </Row>
+        </Container>
+    )
 };
 
 
