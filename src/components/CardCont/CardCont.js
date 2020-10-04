@@ -1,6 +1,7 @@
 import React from 'react';
 import { Media, } from 'react-bootstrap';
-import './img/HobbyConnect.png';
+import './img/email.png';
+import './img/phone.png';
 
 
 
@@ -15,7 +16,7 @@ const CardCont = () => {
                     width={200}
                     height={200}
                     className="mr-3"
-                    src={require('./img/HobbyConnect.png')}
+                    src={require('./img/phone.png')}
                     alt="Generic placeholder"
                 />
                 <Media.Body style={{ textAlign: 'center', marginTop: '20px', }}>
@@ -32,7 +33,7 @@ const CardCont = () => {
                     width={200}
                     height={200}
                     className="mr-3"
-                    src={require('./img/HobbyConnect.png')}
+                    src={require('./img/email.png')}
                     alt="Generic placeholder"
                 />
                 <Media.Body style={{ textAlign: 'center', marginTop: '20px',  }}>
