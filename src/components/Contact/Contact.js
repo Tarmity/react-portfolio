@@ -1,11 +1,12 @@
 import React from 'react';
 import { } from 'react-bootstrap';
+import CardCont from '../CardCont/CardCont';
 
 
 const Contact = () => {
     return (
 
-        <h4>hello</h4>
+        <CardCont />
 
     )
 };
