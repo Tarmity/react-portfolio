@@ -24,8 +24,8 @@ const CardPort = (props) => {
                 </Card.Text>
             </Card.Body>
             <Card.Body className="cardBody">
-                <Card.Link style={{ marginRight: '60px' }} href={props.github}><strong>GitHub Repo</strong></Card.Link>
-                <Card.Link href={props.website}><strong>Website</strong></Card.Link>
+                <Card.Link style={{ marginRight: '60px' }} href={props.github} target='blank'><strong>GitHub Repo</strong></Card.Link>
+                <Card.Link href={props.website} target='blank'><strong>Website</strong></Card.Link>
             </Card.Body>
         </Card>
 
