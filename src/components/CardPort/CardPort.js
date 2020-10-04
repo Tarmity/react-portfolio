@@ -1,13 +1,13 @@
 import React from 'react';
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card, } from 'react-bootstrap';
 import './CardPort.css'
 
 const CardPort = () => {
 
     return (
 
-        <Card style={{ width: '18rem', marginTop: '50px' }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card className="cardBody" style={{ width: '18rem', marginTop: '50px' }}>
+            <Card.Img variant="top" src={require('./img/HobbyConnect.png')} />
             <Card.Body className="cardBody">
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -22,8 +22,8 @@ const CardPort = () => {
                 </Card.Text>
             </Card.Body>
             <Card.Body className="cardBody">
-                <Card.Link style={{ marginRight: '60px' }}href="#">GitHub Repo</Card.Link>
-                <Card.Link href="#">Website</Card.Link>
+                <Card.Link style={{ marginRight: '60px' }}href="#"><strong>GitHub Repo</strong></Card.Link>
+                <Card.Link href="#"><strong>Website</strong></Card.Link>
             </Card.Body>
         </Card>
 
