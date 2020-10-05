@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Container, Button } from 'react-bootstrap/';
+import { Jumbotron, Container, Button, Image } from 'react-bootstrap/';
 import "./Homepage.css";
 
 
@@ -14,6 +14,7 @@ const Jumbo = () => {
                     <h1 className="jumboTexth1">TARMITY</h1>
                     <p>Full-Stack Developer</p>
                     <Button href="/Portfolio" variant="outline-info">My Work</Button>{' '}
+                    <Image></Image>
                 </div>
             </Container>
             
