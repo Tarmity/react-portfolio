@@ -1,11 +1,20 @@
-import React from 'react';
-import { } from 'react-bootstrap';
+import React from "react";
+
+import SinglePagePDFViewer from "./single-page";
 
 
-const Resume = () => {
-    return <h3>Resume</h3>
-};
+/* This is required only if the project file is located 
+inside the app. Otherwise you can use the external link of the pdf file*/
+import samplePDF from "./Resume.pdf";
 
+import "./Resume.css";
 
+export default function Resume() {
+  return (
+    <div className="App">
 
-export default Resume;
+      <SinglePagePDFViewer pdf={samplePDF} />
+
+    </div>
+  );
+}
