@@ -20,6 +20,7 @@ class Contact extends Component {
                         image={contmeth.image}
                         title={contmeth.title}
                         details={contmeth.details}
+                        pic={contmeth.pic}
                     />
                 ))}
 
@@ -27,7 +28,5 @@ class Contact extends Component {
         )
     }
 };
-
-
 
 export default Contact;

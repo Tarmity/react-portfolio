@@ -8,12 +8,11 @@ class Portfolio extends Component {
     state = {
         works
     };
-// const Portfolio = (props) => {
+
 render() {
     return (
             <Container > 
                 <Row>
-                    {/* <Col> */}
                     {this.state.works.map(work => (
                         <CardPort 
                         key={work.id}
@@ -26,21 +25,11 @@ render() {
                         website={work.website}
                         /> 
                     ))}
-                        
-                    {/* </Col>  */}
-                    {/* <Col>
-                        <CardPort />
-                    </Col>
-                    <Col>
-                        <CardPort />
-                    </Col> */}
                 </Row>
             </Container>
 
     )
 }
 };
-
-
 
 export default Portfolio;
