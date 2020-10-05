@@ -6,7 +6,7 @@ import './img/phone.png';
 
 
 
-const CardCont = () => {
+const CardCont = (props) => {
 
 
     return (
