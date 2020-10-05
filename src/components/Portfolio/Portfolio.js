@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import CardPort from '../CardPort/CardPort';
-import works from './work.json'
+import works from './work.json';
 
 class Portfolio extends Component {
 

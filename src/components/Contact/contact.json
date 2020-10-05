@@ -1,15 +1,16 @@
 [
 
     {
+        "id": 1,
         "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardCont/img/phone.png?raw=true",
         "title": "Call Me",
-        "contmeth": "+61409298471"
+        "details": "+61409298471"
     },
     {
-    
+        "id":2,
         "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardCont/img/email.png?raw=true",
         "title": "Email Me",
-        "contmeth": "tarmity.flassman@gmail.com"
+        "details": "tarmity.flassman@gmail.com"
         
     }
 

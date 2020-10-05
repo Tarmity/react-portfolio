@@ -1,14 +1,31 @@
-import React from 'react';
-import { } from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Container } from 'react-bootstrap';
 import CardCont from '../CardCont/CardCont';
+import contmeths from "./contact.json";
 
 
-const Contact = () => {
-    return (
+class Contact extends Component {
 
-        <CardCont />
+    state = {
+        contmeths
+    };
 
-    )
+
+    render() {
+        return (
+            <Container>
+                {this.state.contmeths.map(contmeth => (
+                    <CardCont
+                        key={contmeth.id}
+                        image={contmeth.image}
+                        title={contmeth.title}
+                        details={contmeth.details}
+                    />
+                ))}
+
+            </Container>
+        )
+    }
 };
 
 
