@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import "./Resume.css";
+import "./Resume.pdf";
+import { Button } from 'react-bootstrap'
 import { Document, Page, pdfjs } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 
 
@@ -32,13 +35,13 @@ const SinglePage = (props) => {
     return (
         < >
             <Document
-                file={ pdf}
+                file={pdf}
                 options={{ workerSrc: "/pdf.worker.js" }}
                 onLoadSuccess={onDocumentLoadSuccess}
             >
                 <Page pageNumber={pageNumber} />
             </Document>
-            <div className= "buttons">
+            <div className="buttons">
                 <p>
                     Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
                 </p>
@@ -51,7 +54,13 @@ const SinglePage = (props) => {
                     onClick={nextPage}
                 >
                     Next
-                </button>
+                </button>{" "}
+                <a href='./Resume.pdf' target="_blank" rel="noopener noreferrer" download>
+                     <button>
+                        <i className="fas fa-download" />
+                     Download 
+                     </button>
+                </a>
             </div>
 
         </>
