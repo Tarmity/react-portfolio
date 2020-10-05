@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/V-Bloggers.png?raw=true",
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/employeeDirectory.png?raw=true",
         "title": "Employee Directory",
         "about": "The Employee Directory is a great tool for a manager or supervisor to have their employees important information all on one page. It also allows each column to be sort in alphabetical order 9",
         "languages": " React, CSS, JAVASCRIPT",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/V-Bloggers.png?raw=true",
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/BudgetTracker.png?raw=true",
         "title": "Budget Tracker",
         "about": "Budget Tracker is a simple app that allows you to track your income and spending, it also puts all your inputs into a graph for easier visualization",
         "languages": " Node.js, Express, Sequelize, mongoDB ",
