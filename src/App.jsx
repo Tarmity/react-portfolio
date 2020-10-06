@@ -6,7 +6,7 @@ import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router,  Switch, Link } from "react-router-dom";
 
 
 function App() {
@@ -14,21 +14,27 @@ function App() {
     <div>
       <NavBarFull />
 
-      <Router>
+      <Router basename='/react-portfolio'>
         <Switch>
-          <Route exact path="/" component={Homepage} />
-        </Switch>
-        <Switch>
-          <Route exact path="/port" component={Portfolio} />
-        </Switch>
-        <Switch>
-          <Route exact path="/bio" component={Bio} />
-        </Switch>
-        <Switch>
-          <Route exact path="/resume" component={Resume} />
-        </Switch>
-        <Switch>
-          <Route exact path="/contact" component={Contact} />
+          <Link to="/">
+            <Homepage/>
+          </Link>
+
+          <Link to="/port">
+            <Portfolio />
+          </Link>
+      
+          <Link to="/bio">
+            <Bio />
+          </Link>
+        
+          <Link to="/resume">
+            <Resume />
+          </Link>
+     
+          <Link to="/contact" >
+            <Contact />
+          </Link>
         </Switch>
       </Router>
 
