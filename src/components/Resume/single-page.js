@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Resume.css";
 import "./Resume.pdf";
-import { Button } from 'react-bootstrap'
+import { } from 'react-bootstrap'
 import { Document, Page, pdfjs } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
