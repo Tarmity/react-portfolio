@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap/';
+import { Nav, Navbar, NavDropdown, Link } from 'react-bootstrap/';
+import { Link } from "react-router-dom";
 import "./NavbarFull.css";
 
 
@@ -9,7 +10,7 @@ const NavbarFull = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg"  variant="dark" className="navbarColor">
-                <Navbar.Brand href="/"><h6 className="navText">Tarmity Flassman</h6></Navbar.Brand>
+                <Navbar.Brand ><h6 className="navText"><Link to='/'>Tarmity Flassman</Link></h6></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
