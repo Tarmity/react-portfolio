@@ -5,7 +5,7 @@
         "title": "Hobby Connect",
         "about": "Hobby Connect is a web-based platform where people in your local area/city can to, and create an event on a certain date and time on a calendar for other users to see.",
         "languages": " Node.js, Express, Sequelize, Handlebars, MySQl, JavaScript ",
-        "tech": " fullcalandar.io, Google Maps",
+        "tech": " fullcalandar.io, Google Maps, Heroku",
         "github": "https://github.com/carlocardona/HobbyConnect",
         "website": "https://immense-dusk-57096.herokuapp.com/"
     },
@@ -55,9 +55,39 @@
         "title": "Budget Tracker",
         "about": "Budget Tracker is a simple app that allows you to track your income and spending, it also puts all your inputs into a graph for easier visualization",
         "languages": " Node.js, Express, Sequelize, mongoDB ",
-        "tech": " mongoose, morgan",
+        "tech": " mongoose, morgan, npm, Heroku,",
         "github": "https://github.com/Tarmity/budget-tracker",
         "website": "https://limitless-gorge-77388.herokuapp.com/"
+    },
+    {
+        "id": 7,
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/codeQuizz.png?raw=true",
+        "title": "Employee Tracker",
+        "about": "Employee Tracker is a node.js application that keeps track of your employees, there role in the company and who there manager is.",
+        "languages": " Node.js, JAVASCRIPT ",
+        "tech": " npm ",
+        "github": "https://github.com/Tarmity/employee-tracker",
+        "website": "https://youtu.be/1xcN9eisoB8"
+    },
+    {
+        "id": 8,
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/employeeDirectory.png?raw=true",
+        "title": "Burger",
+        "about": "Burger is an application where you can add burgers you want to try to a list and then once you have tried the burger you can devour it.",
+        "languages": " CSS, HTML JAVASCRIPT, Node.js, MySQL",
+        "tech": " npm, Heroku, JAWSDB",
+        "github": "https://github.com/Tarmity/burger",
+        "website": "https://guarded-journey-06378.herokuapp.com/"
+    },
+    {
+        "id": 9,
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/BudgetTracker.png?raw=true",
+        "title": "Fitness Tracker",
+        "about": "The Fitness Tracker is a web-based application that you can use to record your daily workout.",
+        "languages": " Node.js, Express, Sequelize, mongoDB ",
+        "tech": " mongoose, npm, Heroku",
+        "github": "https://github.com/Tarmity/fitness-tracker",
+        "website": "https://salty-bayou-44682.herokuapp.com/"
     }
 
 ]
