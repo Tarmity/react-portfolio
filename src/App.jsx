@@ -12,9 +12,10 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div>
-      <NavBarFull />
+    
 
       <HashRouter basename="/">
+      <NavBarFull />
         <Switch>
           <Route exact path="/" component={Homepage} />
 
@@ -25,8 +26,9 @@ function App() {
           <Route exact path="/resume" component={Resume} />
      
           <Route exact path="/contact" component={Contact} />
+          
         </Switch>
-      </HashRouter>
+        </HashRouter>
 
       <Footer />
     </div>
