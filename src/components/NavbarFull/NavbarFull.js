@@ -13,7 +13,7 @@ const NavbarFull = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/portfolio"><h6 className="navLink">Portfolio</h6></Nav.Link>
+                        <Nav.Link href="/port"><h6 className="navLink">Portfolio</h6></Nav.Link>
                         <Nav.Link href="/bio"><h6 className="navLink">Bio</h6></Nav.Link>
                         <Nav.Link href="/resume"><h6 className="navLink">Resume</h6></Nav.Link>
                         <NavDropdown title="Contact Me" id="collasible-nav-dropdown">

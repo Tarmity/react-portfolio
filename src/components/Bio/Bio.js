@@ -15,12 +15,15 @@ const Bio = () => {
                 <Card.Img variant="top"  src={require("./imgs/cartoonPic.png")}  />
                 <Card.Body className="cardBody">
                     <Card.Text >
-                        <h2>About Me</h2>
-                      <p><strong>In high school and before technology was that big, I was that kid the teacher always seemed to signal out for not paying attention, pull stuff apart and making a mess. Seemingly in my own words I always had a fascination for how things were put together and worked, I also had a passion for travel and would find myself daydreaming on some remote beach somewhere in the world. After I finished year 12, I had already been accepted into the Royal Australian Navy as a Marine Technician (Engineering) and was waiting to start my initial training.</strong></p> 
-                       <br />
-                        <p>When I started my career in the Navy, the two dreams I had as child had come to fruition, I was traveling the world and as an engineer I was pulling about complex mechanical equipment from v12 engines, Gas turbines to basic equipment like tap fittings. Live was grand. During my 13 years in the Navy, technology was for ever evolving and I started to work with equipment that was run from advance computer software which blew my mind. I had found the next chapter in my life computer software.</p>
-                       <br />
-                        <p>Once I left my career in the Navy, I started doing my own research and developed a passion for web and software development. Coding has fuelled my passion in some many areas from find out how certain codes interact together, and the result is an amazing web page to playing around with code and figuring out how it works. I love how the are so many different solutions to the same problem, the satisfaction of working on a bug for hours sometimes days and finally figure out the solutions is beyond satisfying. I cannot wait to further my knowledge as a full stack developer, and I look forward to meeting new people along the way!</p>
+                    <h2>About Me</h2>
+                            <p><strong>From an early age, I have always been fascinated by Technology and anything that was Technical.  I absolutely loved pulling things apart to see exactly how they worked and then trying to put it back to working order again.
+                            Along with my passion for Technology, I also enjoyed traveling and exploring a new place. So after I finished my final year of school, I decided to join the Royal Australian Navy as a Marine Technician (Engineering). Not only was I fulfill my passions but also gaining a sense of pride and life skills along the journey.
+                            </strong></p>
+                            <br />
+                            <p>During my thirteen and a half years in the Navy, technology was forever evolving and I started seeing more and more mechanical equipment being run by advanced computer software which blew my mind. It opened my eyes to new possibilities once I left the Navy. Once I left my career in the Navy, I started doing my own research and developed a passion for web and software development. Coding has fuelled my passion in so many areas. From figuring out how certain codes interact together, and the final result is an amazing web application, to just studying code blocks and figuring out how it works.</p>
+                            <br />
+                            <p>Besides my love of Technology, I  also have a keen passion for fitness and a variety of sports. I love everything about the ocean and enjoy surfing, diving, and fishing, when I'm not at the beach I enjoy going to the gym or watching sports on tv. 
+I look forward to my journey as a full-stack developer, and I look forward to meeting new people along the way!</p>
                     </Card.Text>
                 </Card.Body>
             </Card>
