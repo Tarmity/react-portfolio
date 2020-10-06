@@ -13,7 +13,7 @@ const Jumbo = () => {
                     <h1 className="jumboTexth1">MEET </h1>
                     <h1 className="jumboTexth1">TARMITY</h1>
                     <p>Full-Stack Developer</p>
-                    <Button href="/port" variant="outline-info">My Work</Button>{' '}
+                    <Button href="/port" variant="outline-info" >My Work</Button>{' '}
                     <br />
                     <Image src={require('./img/TarmityLogo2.png')}/>
                 </div>

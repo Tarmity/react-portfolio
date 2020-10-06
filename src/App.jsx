@@ -25,12 +25,18 @@ function App() {
             <Portfolio />
           </Route> 
       
-          {/* <Route path="/bio" component={Bio} />
+          <Route exact path="/bio">
+            <Bio />
+            </Route>
         
-          <Route path="/resume" component={Resume} />
+          <Route exact path="/resume">
+            <Resume />
+            </Route> 
      
-          <Route path="/contact" component={Contact} />
-           */}
+          <Route eaxct path="/contact">
+            <Contact />
+            </Route>
+          
         </Switch>
         </HashRouter>
 
