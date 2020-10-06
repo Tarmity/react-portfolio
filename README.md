@@ -21,7 +21,7 @@
     npm install
 
   ## Usage
-  The Portfolio is for personnal use, if you would like to see the live version please click on the link provide (). If you would like to use this portfolio as your own, simply clone this repository and modify it to suit your needs. 
+  The Portfolio is for personnal use, if you would like to see the live version please click on the link provide (https://tarmity.github.io/react-portfolio/). If you would like to use this portfolio as your own, simply clone this repository and modify it to suit your needs. 
   
   
 
