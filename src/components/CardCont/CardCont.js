@@ -11,7 +11,7 @@ const CardCont = (props) => {
 
     return (
   
-            <Media style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '200px', width: '800px', backgroundColor: '#DEB992' }}>
+            <Media style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '100px', width: '800px', backgroundColor: '#DEB992' }}>
                 <img
                     width={200}
                     height={200}

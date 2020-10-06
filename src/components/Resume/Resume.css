@@ -21,7 +21,7 @@
   
   /* For pdf */
   .react-pdf__Page {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .react-pdf__Page__textContent {
     
@@ -30,7 +30,7 @@
   }
   
   .react-pdf__Page__annotations.annotationLayer {
-    padding: 20px;
+    /* padding: 20px; */
   }
   
   .react-pdf__Page__canvas {
