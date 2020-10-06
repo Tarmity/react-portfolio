@@ -17,15 +17,15 @@ function App() {
       <HashRouter basename="/">
       <NavBarFull />
         <Switch>
-          <Route exact path="/" component={Homepage} />
+          <Route path="/" component={Homepage} />
 
-          <Route exact path="/port" component={Portfolio} />
+          <Route path="/port" component={Portfolio} />
       
-          <Route exact path="/bio" component={Bio} />
+          <Route path="/bio" component={Bio} />
         
-          <Route exact path="/resume" component={Resume} />
+          <Route path="/resume" component={Resume} />
      
-          <Route exact path="/contact" component={Contact} />
+          <Route path="/contact" component={Contact} />
           
         </Switch>
         </HashRouter>
