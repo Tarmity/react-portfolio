@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/codeQuizz.png?raw=true",
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/employeeTracker.png?raw=true",
         "title": "Employee Tracker",
         "about": "Employee Tracker is a node.js application that keeps track of your employees, there role in the company and who there manager is.",
         "languages": " Node.js, JAVASCRIPT ",
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/employeeDirectory.png?raw=true",
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/burger.png?raw=true",
         "title": "Burger",
         "about": "Burger is an application where you can add burgers you want to try to a list and then once you have tried the burger you can devour it.",
         "languages": " CSS, HTML JAVASCRIPT, Node.js, MySQL",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/BudgetTracker.png?raw=true",
+        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/fitnessTracker.png?raw=true",
         "title": "Fitness Tracker",
         "about": "The Fitness Tracker is a web-based application that you can use to record your daily workout.",
         "languages": " Node.js, Express, Sequelize, mongoDB ",
