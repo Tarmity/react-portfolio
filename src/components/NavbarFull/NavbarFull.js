@@ -10,13 +10,13 @@ const NavbarFull = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg"  variant="dark" className="navbarColor">
-                <Navbar.Brand ><h6 className="navText"><Link to='/'>Tarmity Flassman</Link></h6></Navbar.Brand>
+                <Navbar.Brand ><h6 className="navText">Tarmity Flassman</h6></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/port"><h6 className="navLink">Portfolio</h6></Nav.Link>
-                        <Nav.Link href="/bio"><h6 className="navLink">Bio</h6></Nav.Link>
-                        <Nav.Link href="/resume"><h6 className="navLink">Resume</h6></Nav.Link>
+                        <Nav.Link href><h6 className="navLink"><Link to="/port">Portfolio</Link></h6></Nav.Link>
+                        <Nav.Link ><h6 className="navLink"><Link to="/bio">Bio</Link></h6></Nav.Link>
+                        <Nav.Link ><h6 className="navLink"><Link to="/resume">Resume</Link></h6></Nav.Link>
                         <NavDropdown title="Contact Me" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="https://www.linkedin.com/in/tarmity-flassman-403079b7/" target="blank">LinkdIn</NavDropdown.Item>
                             <NavDropdown.Item href="https://github.com/Tarmity" target="blank">GitHub</NavDropdown.Item>
