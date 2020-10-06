@@ -6,7 +6,7 @@ import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <div>
       <NavBarFull />
 
-      <Router>
+      <HashRouter basename="/">
         <Switch>
           <Route exact path="/" component={Homepage} />
 
@@ -26,7 +26,7 @@ function App() {
      
           <Route exact path="/contact" component={Contact} />
         </Switch>
-      </Router>
+      </HashRouter>
 
       <Footer />
     </div>
