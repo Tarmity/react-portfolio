@@ -14,7 +14,7 @@ function App() {
     <div>
       <NavBarFull />
 
-      <Router>
+      <Router basename='/react-portfolio'>
         <Switch>
           <Route exact path="/" component={Homepage} />
 
