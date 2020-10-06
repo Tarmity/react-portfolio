@@ -6,7 +6,7 @@ import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
-import { HashRouter as Router,  Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router,  Switch, Link } from "react-router-dom";
 
 
 function App() {
