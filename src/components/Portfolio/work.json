@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/HobbyConnect.png?raw=true",
+        "image": "https://github.com/Tarmity/react-portfolio/blob/master/src/components/CardPort/img/googlebook.png?raw=true",
         "title": "Google Book Search",
         "about": "Google Book Search is a MERN stack application, That allows you to search and save books from google.",
         "languages": " Node.js, Express, Mongo, react ",
