@@ -11,7 +11,7 @@ const Bio = () => {
         <Container>
             <br />
             <br />
-            <Card style={{ marginTop: '30px' }}>
+            <Card style={{ marginTop: '10px' }}>
                 <Card.Img variant="top"  src={require("./imgs/cartoonPic.png")}  />
                 <Card.Body className="cardBody">
                     <Card.Text >
@@ -20,8 +20,8 @@ const Bio = () => {
                             Proficient in HTML5, CSS, JavaScript, Reactjs, Nodejs, Express, MongoDB and MERN stack.
                             </strong></p>
                             <p> From an early age, I have always been fascinated by Technology and anything that was Technical.  I absolutely loved pulling things apart to see exactly how they worked and then trying to put it back to working order again.
-                            Along with my passion for Technology, I also enjoyed traveling and exploring a new place. So after I finished my final year of school, I decided to join the Royal Australian Navy as a Marine Technician (Engineering). Not only was I fulfill my passions but also gaining a sense of pride and life skills along the journey.</p>
-                            <p>During my thirteen and a half years in the Navy, technology was forever evolving and I started seeing more and more mechanical equipment being run by advanced computer software which blew my mind. It opened my eyes to new possibilities once I left the Navy. Once I left my career in the Navy, I started doing my own research and developed a passion for web and software development. Coding has fuelled my passion in so many areas. From figuring out how certain codes interact together, and the final result is an amazing web application, to just studying code blocks and figuring out how it works.</p>
+                            Along with my passion for Technology, I also enjoyed traveling and exploring a new place. So after I finished my final year of school, I decided to join the Royal Australian Navy as a Marine Technician (Engineering). Not only was I fulfill my passions but also gaining a sense of pride and life skills along the journey.
+                            During my thirteen and a half years in the Navy, technology was forever evolving and I started seeing more and more mechanical equipment being run by advanced computer software which blew my mind. It opened my eyes to new possibilities once I left the Navy. Once I left my career in the Navy, I started doing my own research and developed a passion for web and software development. Coding has fuelled my passion in so many areas. From figuring out how certain codes interact together, and the final result is an amazing web application, to just studying code blocks and figuring out how it works.</p>
                             <br />
                             <p>Besides my love of Technology, I  also have a keen passion for fitness and a variety of sports. I love everything about the ocean and enjoy surfing, diving, and fishing, when I'm not at the beach I enjoy going to the gym or watching sports on tv. 
 I                               look forward to my journey as a Full-Stack Developer, and I look forward to meeting new people along the way!</p>
