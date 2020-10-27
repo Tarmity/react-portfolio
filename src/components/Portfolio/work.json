@@ -2,7 +2,7 @@
     {
         "id": 1,
         "image": "https://github.com/Tarmity/react-portfolio/blob/master/src/components/CardPort/img/poseura.png?raw=true",
-        "title": "Poseursa",
+        "title": "Poseura",
         "about": "Poseura is an application that allows users to book Photographers in there local area using google maps. It also a community for photographers to interact",
         "languages": " MongoDB, Express, Node.js, Reactjs ",
         "tech": " Google Maps, Heroku",
