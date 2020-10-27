@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "image": "https://github.com/Tarmity/react-portfolio/blob/master/src/components/CardPort/img/poseura.png?raw=true",
+        "title": "Poseursa",
+        "about": "Poseura is an application that allows users to book Photographers in there local area using google maps. It also a community for photographers to interact",
+        "languages": " MongoDB, Express, Node.js, Reactjs ",
+        "tech": " Google Maps, Heroku",
+        "github": "https://github.com/Tarmity/poseura",
+        "website": "https://desolate-stream-97905.herokuapp.com/"
+    },
+    {
+        "id": 2,
         "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/HobbyConnect.png?raw=true",
         "title": "Hobby Connect",
         "about": "Hobby Connect is a web-based platform where people in your local area/city can to, and create an event on a certain date and time on a calendar for other users to see.",
@@ -8,17 +18,6 @@
         "tech": " fullcalandar.io, Google Maps, Heroku",
         "github": "https://github.com/carlocardona/HobbyConnect",
         "website": "https://immense-dusk-57096.herokuapp.com/"
-    },
-    {
-    {
-        "id": 2,
-        "image": "https://github.com/Tarmity/portfolio/blob/master/src/components/CardPort/img/HobbyConnect.png?raw=true",
-        "title": "Poseursa",
-        "about": "Poseura is an application that allows users to book Photographers in there local area using google maps. It also a community for photographers to interact",
-        "languages": " MongoDB, Express, Node.js, Reactjs ",
-        "tech": " Google Maps, Heroku",
-        "github": "https://github.com/Tarmity/poseura",
-        "website": "https://desolate-stream-97905.herokuapp.com/"
     },
     {
         "id": 3,
