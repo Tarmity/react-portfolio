@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Resume.css";
-import "./Resume.pdf";
+import "./Resume2.pdf";
 import { } from 'react-bootstrap'
 import { Document, Page, pdfjs } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -55,7 +55,7 @@ const SinglePage = (props) => {
                 >
                     Next
                 </button>{" "}
-                <a href='./Resume.pdf' target="_blank" rel="noopener noreferrer" download>
+                <a href='./Resume2.pdf' target="_blank" rel="noopener noreferrer" download>
                      <button>
                         <i className="fas fa-download" />
                      Download 
